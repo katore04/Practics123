@@ -4,7 +4,7 @@ node('built-in')
 	{
     git 'https://github.com/sunildevops77/maven.git'
 	}
-    stage('Continuous Build') 
+    stage('Continuous Build_21') 
 	{
     sh label: '', script: 'mvn package'
 	}
